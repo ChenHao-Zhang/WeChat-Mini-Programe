@@ -1,0 +1,21 @@
+<!--pages/map/map.wxml-->
+<map
+      id="myMap"
+      style="width: 100%; height: 300px;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      markers="{{markers}}"
+      bindtap="click"
+></map>
+<view class="zan-dialog {{ showDialog ? 'zan-dialog--show' : '' }}">
+  <view class="zan-dialog__mask" bindtap="click" />
+  <view class="zan-dialog__container">
+    <view style='padding:50rpx;'>
+      <view style="text-align: center">请输入信息</view>
+      <form bindsubmit="oks">
+        <view style="padding: 10px"><input placeholder="请输入内容" name='msg'></input></view>
+        <button type="primary" form-type="submit"> 确定 </button>
+      </form>
+    </view>
+  </view>
+</view>

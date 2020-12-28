@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movie/movie",
+    "pages/map/map",
+    "pages/calendar/calendar"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "视频",
+        "iconPath": "/images/icon/main.png",
+        "selectedIconPath": "/images/icon/main_select.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "视频",
+        "iconPath": "/images/icon/movie.png",
+        "selectedIconPath": "/images/icon/movie_select.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "地图",
+        "iconPath": "/images/icon/map.png",
+        "selectedIconPath": "/images/icon/map_select.png"
+      },
+      {
+        "pagePath": "pages/calendar/calendar",
+        "text": "日历",
+        "iconPath": "/images/icon/calendar.png",
+        "selectedIconPath": "/images/icon/calendar_select.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

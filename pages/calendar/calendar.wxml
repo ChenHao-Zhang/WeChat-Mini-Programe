@@ -1,0 +1,6 @@
+<!--pages/Calendar/Calendar.wxml-->
+<calendar 
+	currentYear='2020'
+	currentMonth="12"
+	bindsendObj='getCalendarData'
+></calendar>

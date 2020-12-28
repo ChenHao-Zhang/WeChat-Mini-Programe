@@ -1,0 +1,67 @@
+<view>
+  <image src="../../images/6AA1567A97F282DB51BEA24B04B62DB8.png" mode="widthFix"></image>
+</view>
+<view>
+  <swiper indicator-dots="true" autoplay="true" indicator-active-color="#7FFF00">
+    <swiper-item ><image src="../../images/banner.jpg" mode="top"></image></swiper-item>
+    <swiper-item><image src="../../images/banner1.jpg" mode="top"></image></swiper-item>
+    <swiper-item><image src="../../images/banner2.jpg" mode="top"></image></swiper-item>
+  </swiper>
+</view>
+
+
+<view>
+  <view class="post-container">
+      <view class="post-author-date">
+        <image src="/images/indexContent/head.jpg" />
+        <text>小王</text>
+      </view>
+      <text class="post-title">红色军旅锡剧《董存瑞》走进金陵科技学院</text>
+      <image class="post-image" src="/images/indexContent/content1.jpg" mode="aspectFill" />
+      <text class="post-content">12月14日，红色军旅锡剧《董存瑞》在江宁校区大学生活动中心剧场上演，该场剧目是江苏艺术基金2019年度大型舞台资助项目，由江苏省演艺集团锡剧团进行表演。锡剧团成员充分运用唱念做打的表演形式，再现了勇往直前的战争年代，为广大师生谱写了一曲极具教育意义的英雄赞歌。</text>
+      <view class="post-like">
+        <image src="/images/icon/wx_app_collect.png" />
+        <text>10</text>
+        <image src="/images/icon/wx_app_view.png"></image>
+        <text>11</text>
+        <image src="/images/icon/wx_app_message.png"></image>
+        <text>12</text>
+      </view>
+    </view>
+
+  <view class="post-container">
+      <view class="post-author-date">
+        <image src="/images/indexContent/head.jpg" />
+        <text>小王</text>
+      </view>
+      <text class="post-title">江苏戏曲名作——京剧《鉴证》走进金科校园</text>
+      <image class="post-image" src="/images/indexContent/content2.jpg" mode="aspectFill" />
+      <text class="post-content">12月10日，南京市京剧团走进我校，为莘莘学子带来了京剧《鉴证》。我校喜爱京剧的教职工、各二级学院同学以及追光话剧社的成员来到大学生活动中心剧场观看演出。</text>
+      <view class="post-like">
+        <image src="/images/icon/wx_app_collect.png" />
+        <text>10</text>
+        <image src="/images/icon/wx_app_view.png"></image>
+        <text>11</text>
+        <image src="/images/icon/wx_app_message.png"></image>
+        <text>12</text>
+      </view>
+    </view>
+
+  <view class="post-container">
+      <view class="post-author-date">
+        <image src="/images/indexContent/head.jpg" />
+        <text>小王</text>
+      </view>
+      <text class="post-title">无锡职业技术学院基础课部来我院调研学习</text>
+      <image class="post-image" src="/images/indexContent/content3.jpg" mode="aspectFill" />
+      <text class="post-content">12月8日，无锡职业技术学院基础课部书记朱翔等一行六人来理学院调研学习，理学院党总支部书记雍海龙、院长张国印热情接待，副院长刘平及数学、物理教研室主任等参加了交流座谈。</text>
+      <view class="post-like">
+        <image src="/images/icon/wx_app_collect.png" />
+        <text>10</text>
+        <image src="/images/icon/wx_app_view.png"></image>
+        <text>11</text>
+        <image src="/images/icon/wx_app_message.png"></image>
+        <text>12</text>
+      </view>
+    </view>
+  </view>
